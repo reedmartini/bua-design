@@ -1,0 +1,151 @@
+
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url('../img/bua-mountain2.jpg');
+    font-family: 'Major Mono Display', monospace;
+    background-size: cover;
+    height: 850px;
+    color: white;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 15px;
+    padding: 75px 0 0 30px;
+}
+
+nav {
+    float: right;
+    padding-top: 75px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.header-sum {
+    padding-top: 400px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/***** ABOUT *****/
+#about {
+    text-align: center;
+    background-color: #bec0bf;
+    height: 1050px;
+}
+
+#about .full-width {
+    padding: 80px 0 0 0;
+}
+
+#about p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    line-height: 40px;
+    width: 600px;
+    padding-left: 300px;
+}
+
+#about h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+
+}
+
+#about img {
+    width: 225px;
+    height: 300px;
+    border: 12px solid #ffffff;
+}
+
+
+/***** WORK *****/
+
+#work {
+    background-color: #ded1c9;
+    text-align: center;
+    height: 850px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h2 {
+    font-size: 36px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+}
+
+#work h4 {
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+    height: 650px;
+    background-color: #bec0bf;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#contact h2 {
+    padding: 100px;
+    font-size: 36px;
+    margin: 0 auto;
+}
+
+#contact h4, #contact p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
